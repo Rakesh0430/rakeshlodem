@@ -6,7 +6,7 @@ import streamlit as st
 
 load_dotenv()
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCzzCluw9AsrtZ6gkPvzdF3QPOzDTw3IRA"
+os.environ["GOOGLE_API_KEY"] = ""
 
 ZOMATO_INSTRUCTIONS = """You are Zomato OrderBot, \
 an automated service to collect orders for an online restaurant. \
